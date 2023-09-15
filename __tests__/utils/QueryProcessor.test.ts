@@ -22,7 +22,7 @@ describe("QueryProcessor", () => {
         const query = "andrewid";
         const response: string = QueryProcessor(query);
         expect(response).toBe((
-            "rashmif"
+            "rashmi"
           ));
     });
 });
